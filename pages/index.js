@@ -1,7 +1,10 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
+    <Layout>
+      
       <div>
         <Head>
           <title>FUDO PIZZA</title>
@@ -10,9 +13,9 @@ export default function Home() {
         </Head>
         {/* body */}
         <main>
-          <h1>hossein kouhzad frontend developer</h1>        
+          <h1>hossein kouhzad-frontend developer</h1>
         </main>
       </div>
+    </Layout>
   );
 }
-
